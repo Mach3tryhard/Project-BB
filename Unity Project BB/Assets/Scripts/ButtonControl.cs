@@ -11,7 +11,6 @@ public class ButtonControl : MonoBehaviour
 
     public void BottleUP()
     {
-        BottleText.GetComponent<TMPro.TextMeshProUGUI>().text=BottleText.GetComponent<TMPro.TextMeshProUGUI>().text+" "+BoxText.GetComponent<TMP_InputField>().text;
         BoxText.GetComponent<TMP_InputField>().text="";
     }
 }
