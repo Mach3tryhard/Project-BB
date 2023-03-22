@@ -25,9 +25,9 @@ public class UpdateBottle : MonoBehaviour
             caca=_poptext.text;
             caca=caca.Remove(0,1);
             GameObject newletter;
-            newletter = Instantiate(Letter, new Vector3(0.0f,0.0f,-3.8f), Quaternion.identity,Canvas_forletter.transform);
+            newletter = Instantiate(Letter, new Vector3(0.0f,2.25f,-3.8f), Quaternion.identity,Canvas_forletter.transform);
             newletter.SetActive(true);
-            newletter.transform.Find("TextLetter").GetComponent<TMPro.TextMeshProUGUI>().text=newletter.transform.Find("TextLetter").GetComponent<TMPro.TextMeshProUGUI>().text+_poptext.text[0];
+            newletter.transform.Find("TextLetter").GetComponent<TMPro.TextMeshProUGUI>().text=""+_poptext.text[0];
             _poptext.text=caca;
         }
     }
