@@ -159,7 +159,7 @@ class Collider; template <> void RegisterUnityClass<Collider>(const char*);
 class BoxCollider; template <> void RegisterUnityClass<BoxCollider>(const char*);
 class CapsuleCollider; 
 class CharacterController; template <> void RegisterUnityClass<CharacterController>(const char*);
-class MeshCollider; 
+class MeshCollider; template <> void RegisterUnityClass<MeshCollider>(const char*);
 class SphereCollider; 
 class TerrainCollider; 
 class WheelCollider; 
@@ -286,7 +286,7 @@ void RegisterAllClasses()
 {
 void RegisterBuiltinTypes();
 RegisterBuiltinTypes();
-	//Total: 81 non stripped classes
+	//Total: 82 non stripped classes
 	//0. NavMeshAgent
 	RegisterUnityClass<NavMeshAgent>("AI");
 	//1. NavMeshProjectSettings
@@ -427,27 +427,29 @@ RegisterBuiltinTypes();
 	RegisterUnityClass<CharacterController>("Physics");
 	//69. Collider
 	RegisterUnityClass<Collider>("Physics");
-	//70. PhysicsManager
+	//70. MeshCollider
+	RegisterUnityClass<MeshCollider>("Physics");
+	//71. PhysicsManager
 	RegisterUnityClass<PhysicsManager>("Physics");
-	//71. Rigidbody
+	//72. Rigidbody
 	RegisterUnityClass<Rigidbody>("Physics");
-	//72. Collider2D
+	//73. Collider2D
 	RegisterUnityClass<Collider2D>("Physics2D");
-	//73. Joint2D
+	//74. Joint2D
 	RegisterUnityClass<Joint2D>("Physics2D");
-	//74. Physics2DSettings
+	//75. Physics2DSettings
 	RegisterUnityClass<Physics2DSettings>("Physics2D");
-	//75. Rigidbody2D
+	//76. Rigidbody2D
 	RegisterUnityClass<Rigidbody2D>("Physics2D");
-	//76. TextRendering::Font
+	//77. TextRendering::Font
 	RegisterUnityClass<TextRendering::Font>("TextRendering");
-	//77. TextRenderingPrivate::TextMesh
+	//78. TextRenderingPrivate::TextMesh
 	RegisterUnityClass<TextRenderingPrivate::TextMesh>("TextRendering");
-	//78. UI::Canvas
+	//79. UI::Canvas
 	RegisterUnityClass<UI::Canvas>("UI");
-	//79. UI::CanvasGroup
+	//80. UI::CanvasGroup
 	RegisterUnityClass<UI::CanvasGroup>("UI");
-	//80. UI::CanvasRenderer
+	//81. UI::CanvasRenderer
 	RegisterUnityClass<UI::CanvasRenderer>("UI");
 
 }

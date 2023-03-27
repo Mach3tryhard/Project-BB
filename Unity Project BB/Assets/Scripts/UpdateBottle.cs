@@ -23,9 +23,18 @@ public class UpdateBottle : MonoBehaviour
         _poptext.onValueChanged.AddListener (delegate {ValueChangeCheck ();});
     }
 
+    public void MoveBottle()
+    {
+        foreach (Transform child in Parent_forletter.transform)
+        {
+            GameObject.Destroy(child.gameObject);
+        }
+        the_bottle.transform.position += new Vector3(10, 0, 0);
+    }
+
     public void ValueChangeCheck()
     {
-        if(_poptext.text.Length>20 && _poptext.text[0]!=' ')
+        if(_poptext.text.Length>20 && _poptext.text[0]!=' ' && the_bottle.transform.position==new Vector3(0f,1.75f,-4f))
         {
             string caca;
             caca=_poptext.text;
@@ -61,7 +70,7 @@ public class UpdateBottle : MonoBehaviour
             GameObject breaked_bottle;
             Vector3 pozitie_bottle=the_bottle.transform.position;
             breaked_bottle = Instantiate(the_cracked_bottle,pozitie_bottle, Quaternion.identity);
-            the_bottle.transform.position += new Vector3(-5, 0, 0);
+            the_bottle.transform.position += new Vector3(-10, 0, 0);
             Canvas_of_bottle.transform.SetParent(breaked_bottle.transform);
             breaked_bottle.SetActive(true);
             StartCoroutine(waitCoroutine());
