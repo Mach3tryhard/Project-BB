@@ -430,7 +430,14 @@
         422,
         423,
         424,
-        425
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -10114,7 +10121,7 @@
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.gradle_hd55.info",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles+Arguments\":{\"ProjectPath\":\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle\",\"Architectures\":\"ARMv7\",\"BuildSystem\":\"Gradle\",\"GradleProjectCreateInfo\":{\"HostPlatform\":\"Windows\",\"ApplicationType\":\"APK\",\"BuildType\":\"Release\",\"AndroidSDKPath\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.9f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\",\"AndroidNDKPath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\",\"PreferredHeapSizeForJVM\":4096,\"GradleVersion\":\"6.1.1\",\"UnityLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\mainTemplate.gradle\",\"LauncherTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\launcherTemplate.gradle\",\"BaseProjectTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\baseProjectTemplate.gradle\",\"GradlePropertiesTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\gradleTemplate.properties\",\"GradleLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\libTemplate.gradle\",\"ProguardUserPath\":\"\",\"SettingsTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\settingsTemplate.gradle\",\"BuildTools\":\"30.0.2\",\"TargetSDKVersion\":30,\"MinSDKVersion\":22,\"PackageName\":\"com.DefaultCompany.com.unity.template.mobile2D\",\"Architectures\":\"ARMv7\",\"BuildApkPerCpuArchitecture\":false,\"VersionCode\":1,\"VersionName\":\"1.0.2\",\"Minify\":0,\"NoCompressOptions\":{\"RelativeFilePaths\":[],\"FileExtensions\":[\".json\"]},\"UseCustomKeystore\":false,\"KeystorePath\":\"\",\"KeystoreName\":\"\",\"KeystorePassword\":\"\",\"KeystoreAliasName\":\"\",\"KeystoreAliasPassword\":\"\",\"ScriptingImplementation\":\"Mono\",\"AndroidLibraries\":[],\"AARFiles\":[],\"BuiltinJavaSourcePaths\":[\"com/unity3d/player/UnityPlayerActivity.java\"],\"JavaSourcePaths\":[{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationManagerOreo.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/NotificationCallback.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationManager.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationUtilities.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationRestartOnBootReceiver.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.adaptiveperformance.samsung.android/Runtime/Plugins/Android/com/unity3d/adaptiveperformance/samsung/GameLoadBooster.java\",\"PackageName\":\"com.unity3d.adaptiveperformance.samsung\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/NotificationChannelWrapper.java\",\"PackageName\":\"com.unity.androidnotifications\"}],\"KotlinSourcePaths\":[],\"PlayerPackage\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer\",\"PlayerPackageTools\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\",\"SymlinkSources\":false,\"InstallIntoBuildsFolder\":false,\"UnityPath\":\"\",\"UnityProjectPath\":\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB\",\"Dependencies\":[]}},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.9f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\AndroidPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/build.gradle\",\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build.gradle\",\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build.gradle\",\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/gradle.properties\",\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/local.properties\",\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/settings.gradle\",\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/gradle/wrapper/gradle-wrapper.properties\"],\"inputs\":[\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/mainTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/launcherTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/baseProjectTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/gradleTemplate.properties\",\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/libTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/settingsTemplate.gradle\"],\"targetDirectories\":[]}}",
+      "WriteTextFilePayload": "{\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles+Arguments\":{\"ProjectPath\":\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle\",\"Architectures\":\"ARMv7\",\"BuildSystem\":\"Gradle\",\"GradleProjectCreateInfo\":{\"HostPlatform\":\"Windows\",\"ApplicationType\":\"APK\",\"BuildType\":\"Release\",\"AndroidSDKPath\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.9f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\SDK\",\"AndroidNDKPath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\",\"PreferredHeapSizeForJVM\":4096,\"GradleVersion\":\"6.1.1\",\"UnityLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\mainTemplate.gradle\",\"LauncherTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\launcherTemplate.gradle\",\"BaseProjectTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\baseProjectTemplate.gradle\",\"GradlePropertiesTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\gradleTemplate.properties\",\"GradleLibraryTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\libTemplate.gradle\",\"ProguardUserPath\":\"\",\"SettingsTemplatePath\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\\\GradleTemplates\\\\settingsTemplate.gradle\",\"BuildTools\":\"30.0.2\",\"TargetSDKVersion\":30,\"MinSDKVersion\":22,\"PackageName\":\"com.DefaultCompany.com.unity.template.mobile2D\",\"Architectures\":\"ARMv7\",\"BuildApkPerCpuArchitecture\":false,\"VersionCode\":1,\"VersionName\":\"0.0.11\",\"Minify\":0,\"NoCompressOptions\":{\"RelativeFilePaths\":[],\"FileExtensions\":[\".json\"]},\"UseCustomKeystore\":false,\"KeystorePath\":\"\",\"KeystoreName\":\"\",\"KeystorePassword\":\"\",\"KeystoreAliasName\":\"\",\"KeystoreAliasPassword\":\"\",\"ScriptingImplementation\":\"Mono\",\"AndroidLibraries\":[],\"AARFiles\":[],\"BuiltinJavaSourcePaths\":[\"com/unity3d/player/UnityPlayerActivity.java\"],\"JavaSourcePaths\":[{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationManagerOreo.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/NotificationCallback.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationManager.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationUtilities.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/UnityNotificationRestartOnBootReceiver.java\",\"PackageName\":\"com.unity.androidnotifications\"},{\"Path\":\"Packages/com.unity.adaptiveperformance.samsung.android/Runtime/Plugins/Android/com/unity3d/adaptiveperformance/samsung/GameLoadBooster.java\",\"PackageName\":\"com.unity3d.adaptiveperformance.samsung\"},{\"Path\":\"Packages/com.unity.mobile.notifications/Runtime/Android/Plugins/com/unity/androidnotifications/NotificationChannelWrapper.java\",\"PackageName\":\"com.unity.androidnotifications\"}],\"KotlinSourcePaths\":[],\"PlayerPackage\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer\",\"PlayerPackageTools\":\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\",\"SymlinkSources\":false,\"InstallIntoBuildsFolder\":false,\"UnityPath\":\"\",\"UnityProjectPath\":\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB\",\"Dependencies\":[]}},\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"AndroidPlayerBuildProgram.Actions.ActionGenerateProjectFiles\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.9f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\AndroidPlayer\\\\AndroidPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/build.gradle\",\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build.gradle\",\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build.gradle\",\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/gradle.properties\",\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/local.properties\",\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/settings.gradle\",\"C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/gradle/wrapper/gradle-wrapper.properties\"],\"inputs\":[\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/mainTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/launcherTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/baseProjectTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/gradleTemplate.properties\",\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/libTemplate.gradle\",\"C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/GradleTemplates/settingsTemplate.gradle\"],\"targetDirectories\":[]}}",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/build.gradle_hd55.info"
@@ -10281,7 +10288,7 @@
     {
       "Annotation": "WriteText C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/strings.xml",
       "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n  <string name=\"app_name\">Unity Project BB</string>\r\n  <string name=\"game_view_content_description\">Game view</string>\r\n</resources>",
+      "WriteTextFilePayload": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n  <string name=\"app_name\">Bottle Up</string>\r\n  <string name=\"game_view_content_description\">Game view</string>\r\n</resources>",
       "Inputs": [],
       "Outputs": [
         "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/values/strings.xml"
@@ -10312,59 +10319,136 @@
       "DebugActionIndex": 407
     },
     {
-      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-anydpi-v26/app_icon.xml"
-      ],
-      "Outputs": [
-        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
-      ],
-      "DebugActionIndex": 408
-    },
-    {
-      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-anydpi-v26/app_icon_round.xml"
-      ],
-      "Outputs": [
-        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
-      ],
-      "DebugActionIndex": 409
-    },
-    {
       "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/app_icon.png"
+        "Temp/StagingArea/res.mdpi.app_icon.png"
       ],
       "Outputs": [
         "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
+      "DebugActionIndex": 408
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.ldpi.app_icon.png"
+      ],
+      "Outputs": [
+        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png"
+      ],
+      "DebugActionIndex": 409
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.hdpi.app_icon.png"
+      ],
+      "Outputs": [
+        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png"
+      ],
       "DebugActionIndex": 410
     },
     {
-      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
+      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/ic_launcher_background.png"
+        "Temp/StagingArea/res.xhdpi.app_icon.png"
       ],
       "Outputs": [
-        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
+        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png"
       ],
       "DebugActionIndex": 411
     },
     {
-      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
+      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/ic_launcher_foreground.png"
+        "Temp/StagingArea/res.xxhdpi.app_icon.png"
       ],
       "Outputs": [
-        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png"
       ],
       "DebugActionIndex": 412
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxxhdpi.app_icon.png"
+      ],
+      "Outputs": [
+        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png"
+      ],
+      "DebugActionIndex": 413
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.ldpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 414
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.mdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 415
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.hdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 416
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xhdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 417
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxhdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 418
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/res.xxxhdpi.app_icon_round.png"
+      ],
+      "Outputs": [
+        "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png"
+      ],
+      "DebugActionIndex": 419
     },
     {
       "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so",
@@ -10375,7 +10459,7 @@
       "Outputs": [
         "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 413
+      "DebugActionIndex": 420
     },
     {
       "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so",
@@ -10386,7 +10470,7 @@
       "Outputs": [
         "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so"
       ],
-      "DebugActionIndex": 414
+      "DebugActionIndex": 421
     },
     {
       "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so",
@@ -10397,7 +10481,7 @@
       "Outputs": [
         "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 415
+      "DebugActionIndex": 422
     },
     {
       "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libMonoPosixHelper.so",
@@ -10408,7 +10492,7 @@
       "Outputs": [
         "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libMonoPosixHelper.so"
       ],
-      "DebugActionIndex": 416
+      "DebugActionIndex": 423
     },
     {
       "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmono-native.so",
@@ -10419,7 +10503,7 @@
       "Outputs": [
         "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmono-native.so"
       ],
-      "DebugActionIndex": 417
+      "DebugActionIndex": 424
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
@@ -10430,7 +10514,7 @@
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 418
+      "DebugActionIndex": 425
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -10704,11 +10788,11 @@
         386,
         388,
         390,
-        418
+        425
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 419
+      "DebugActionIndex": 426
     },
     {
       "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so",
@@ -10719,7 +10803,7 @@
       "Outputs": [
         "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmain.so"
       ],
-      "DebugActionIndex": 420
+      "DebugActionIndex": 427
     },
     {
       "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmonobdwgc-2.0.so",
@@ -10730,7 +10814,7 @@
       "Outputs": [
         "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libmonobdwgc-2.0.so"
       ],
-      "DebugActionIndex": 421
+      "DebugActionIndex": 428
     },
     {
       "Annotation": "CopyFiles C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so",
@@ -10741,7 +10825,7 @@
       "Outputs": [
         "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/symbols/armeabi-v7a/libunity.so"
       ],
-      "DebugActionIndex": 422
+      "DebugActionIndex": 429
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_mjok.info",
@@ -10752,7 +10836,7 @@
         "Library/Bee/artifacts/csharpactions/unity_app_guid_mjok.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 423
+      "DebugActionIndex": 430
     },
     {
       "Annotation": "GuidGenerator C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -10902,11 +10986,11 @@
         "C:/Users/Matei/Desktop/Project bb github/Project-BB/Unity Project BB/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid"
       ],
       "ToBuildDependencies": [
-        423
+        430
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 424
+      "DebugActionIndex": 431
     },
     {
       "Annotation": "Player",
@@ -11204,11 +11288,18 @@
         415,
         416,
         417,
+        418,
         419,
-        424
+        420,
+        421,
+        422,
+        423,
+        424,
+        426,
+        431
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 425
+      "DebugActionIndex": 432
     }
   ],
   "FileSignatures": [
@@ -11542,7 +11633,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 425
+          "Player": 432
         }
 ,  "DefaultNodes": [
     0
